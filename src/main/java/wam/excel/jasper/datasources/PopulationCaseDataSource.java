@@ -9,12 +9,10 @@ import wam.excel.jasper.dto.PopulationCase;
 public class PopulationCaseDataSource implements JRDataSource{
 	
 	private Integer counter = -1;
-	
-
 	private PopulationCase populationCases;
-	private static final String VALOR_FIELD = "Valor";
-	private static final String DRUGS_DS_FIELD = "Drugs";
-	private static final String TOTAL_FIELD = "Total";
+	private static final String VALOR_FIELD = "valor";
+	private static final String DRUGS_DS_FIELD = "drugs";
+	private static final String TOTAL_FIELD = "total";
 
 	public Object getFieldValue(JRField field) throws JRException {
 		if(VALOR_FIELD.equals(field.getName())) {

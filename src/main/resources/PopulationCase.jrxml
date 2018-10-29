@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PopulationCase" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d5ea5ddb-628d-4666-8010-64e610b9ecfa">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PopulationCase" pageWidth="242" pageHeight="595" orientation="Landscape" columnWidth="202" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d5ea5ddb-628d-4666-8010-64e610b9ecfa">
 	<queryString>
 		<![CDATA[]]>
 	</queryString>
@@ -13,43 +13,57 @@
 	<field name="Drugs" class="net.sf.jasperreports.engine.JRDataSource">
 		<fieldDescription><![CDATA[Drugs]]></fieldDescription>
 	</field>
+	<field name="PopulationCase" class="java.lang.String">
+		<fieldDescription><![CDATA[PopulationCase]]></fieldDescription>
+	</field>
+	<variable name="PopulationCase" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[$F{PopulationCase}]]></variableExpression>
+	</variable>
+	<title>
+		<band height="14">
+			<textField>
+				<reportElement x="51" y="0" width="100" height="14" uuid="a7993634-dbf9-4c2e-88c3-f111d9e579ec"/>
+				<textFieldExpression><![CDATA[$V{PopulationCase}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
 	<columnHeader>
-		<band height="30" splitType="Stretch">
+		<band height="17" splitType="Stretch">
 			<staticText>
-				<reportElement x="19" y="0" width="100" height="30" uuid="d20f1c9d-20ea-469a-8841-7cc7853598c9">
+				<reportElement x="-20" y="0" width="50" height="16" uuid="d20f1c9d-20ea-469a-8841-7cc7853598c9">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d96754e5-eb8a-4d3e-9f2c-15eb52008f04"/>
 				</reportElement>
-				<text><![CDATA[Valor]]></text>
+				<text><![CDATA[valor]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="643" y="0" width="100" height="30" uuid="5d2f7a73-c497-4170-833c-fac3b1dd78d3">
+				<reportElement x="172" y="0" width="50" height="16" uuid="5d2f7a73-c497-4170-833c-fac3b1dd78d3">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="48efd313-90f5-4170-ab18-3541ee996a0b"/>
 				</reportElement>
-				<text><![CDATA[Total]]></text>
+				<text><![CDATA[total]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="330" y="0" width="100" height="30" uuid="0a5bbb87-58a0-4fb3-86f5-b7f364d5eecb">
+				<reportElement x="80" y="0" width="50" height="16" uuid="0a5bbb87-58a0-4fb3-86f5-b7f364d5eecb">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d96754e5-eb8a-4d3e-9f2c-15eb52008f04"/>
 				</reportElement>
-				<text><![CDATA[Drugs]]></text>
+				<text><![CDATA[drugs]]></text>
 			</staticText>
 		</band>
 	</columnHeader>
 	<detail>
 		<band height="30" splitType="Stretch">
 			<textField>
-				<reportElement x="19" y="0" width="100" height="30" uuid="3d8a2932-00e8-41fa-b1a0-d4e3f2406731">
+				<reportElement x="-20" y="0" width="50" height="30" uuid="3d8a2932-00e8-41fa-b1a0-d4e3f2406731">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="d96754e5-eb8a-4d3e-9f2c-15eb52008f04"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{Valor}]]></textFieldExpression>
 			</textField>
 			<subreport>
-				<reportElement x="324" y="0" width="200" height="30" uuid="4733e7d4-eea2-48fe-ac20-c806690c5a9e"/>
+				<reportElement x="30" y="0" width="141" height="30" uuid="4733e7d4-eea2-48fe-ac20-c806690c5a9e"/>
 				<dataSourceExpression><![CDATA[$F{Drugs}]]></dataSourceExpression>
 				<subreportExpression><![CDATA["Drugs.jasper"]]></subreportExpression>
 			</subreport>
 			<textField>
-				<reportElement x="643" y="0" width="100" height="30" uuid="745f4ef8-a55a-43e9-ba60-428692dac931">
+				<reportElement x="172" y="0" width="50" height="30" uuid="745f4ef8-a55a-43e9-ba60-428692dac931">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="48efd313-90f5-4170-ab18-3541ee996a0b"/>
 				</reportElement>
 				<textFieldExpression><![CDATA[$F{Total}]]></textFieldExpression>

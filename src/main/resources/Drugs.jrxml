@@ -25,13 +25,13 @@
 				<reportElement x="0" y="0" width="268" height="30" uuid="af3c32c4-9ca5-44b9-9e40-25ebdafa2c14">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a8b1956d-891b-4612-aba8-635ea681caeb"/>
 				</reportElement>
-				<text><![CDATA[VALOR]]></text>
+				<text><![CDATA[valor]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="268" y="0" width="268" height="30" uuid="a537368e-e77a-4fab-a475-0ad17b797eac">
 					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a8b1956d-891b-4612-aba8-635ea681caeb"/>
 				</reportElement>
-				<text><![CDATA[RATIOS]]></text>
+				<text><![CDATA[ratios]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="536" y="0" width="268" height="30" uuid="a537368e-e77a-4fab-a475-0ad17b797eac">
