@@ -1,0 +1,524 @@
+{
+    "snps":[
+        {
+            "valor": "",
+            "gene" : {
+                "valor": "",
+                "animalModel":"",
+                "functions":[{ 
+                    "valor":"", 
+                    "sentence":"", 
+                    "referencies":[], 
+                    "brainLocations": [],
+                    "metabolites":[],
+                    "ratios":[],
+                    "drugMetabolites":[],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }],
+                    "cells": [{
+                        "valor":"",
+                        "brainLocations": [],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }]
+                    }],
+                    "clinicalConditions": [{
+                        "valor":"",
+                        "comorbids":[],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }],
+                        "brainLocations": [],
+                        "keyword": ""
+                    }],
+                    "drugs": [{
+                        "valor":"",
+                        "ratios":[],
+                        "bloods":[]
+                    }],
+                    "effect": [{
+                        "valor":"",
+                        "sentence":"",
+                        "referencies": [],
+                        "brainLocations":[],
+                        "metabolites":[],
+                        "ratios":[],
+                        "drugMetabolites":[],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }],
+                        "cells": [{
+                           "valor":"",
+                           "brainLocations": [],
+                           "pathways": [{
+                              "valor":"",
+                              "brainLocations":[]
+                                    }]
+                            }],
+                        "clinicalConditions": [{
+                            "valor":"",
+                            "comorbids":[],
+                            "pathways": [{
+                                    "valor":"",
+                                    "brainLocations":[]
+                                    }],
+                                "brainLocations": [],
+                                "keyword": ""
+                            }],
+                        "drugs": [{
+                            "valor":"",
+                            "ratios":[],
+                            "bloods":[]
+                            }]
+                        }]
+                }]               
+            },
+            "mirna": [{
+                "valor":"",
+                "animalModel":"",
+                "functions":[{ 
+                    "valor":"", 
+                    "sentence":"", 
+                    "referencies":[], 
+                    "brainLocations": [],
+                    "metabolites":[],
+                    "ratios":[],
+                    "drugMetabolites":[],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }],
+                    "cells": [{
+                        "valor":"",
+                        "brainLocations": [],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }]
+                    }],
+                    "clinicalConditions": [{
+                        "valor":"",
+                        "comorbids":[],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }],
+                        "brainLocations": [],
+                        "keyword": ""
+                    }],
+                    "drugs": [{
+                        "valor":"",
+                        "ratios":[],
+                        "bloods":[]
+                    }],
+                    "effect": [{
+                        "valor":"",
+                        "sentence":"",
+                        "referencies": [],
+                        "brainLocations":[],
+                        "metabolites":[],
+                        "ratios":[],
+                        "drugMetabolites":[],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }],
+                        "cells": [{
+                           "valor":"",
+                           "brainLocations": [],
+                           "pathways": [{
+                              "valor":"",
+                              "brainLocations":[]
+                                    }]
+                            }],
+                        "clinicalConditions": [{
+                            "valor":"",
+                            "comorbids":[],
+                            "pathways": [{
+                                    "valor":"",
+                                    "brainLocations":[]
+                                    }],
+                                "brainLocations": [],
+                                "keyword": ""
+                            }],
+                        "drugs": [{
+                            "valor":"",
+                            "ratios":[],
+                            "bloods":[]
+                            }]
+                        }]
+                }],
+                "references": []
+            }],
+            "oddsRatio" : "",
+            "functions":[{
+                "functions":[{ 
+                    "valor":"", 
+                    "sentence":"", 
+                    "referencies":[], 
+                    "brainLocations": [],
+                    "metabolites":[],
+                    "ratios":[],
+                    "drugMetabolites":[],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }],
+                    "cells": [{
+                        "valor":"",
+                        "brainLocations": [],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }]
+                    }],
+                    "clinicalConditions": [{
+                        "valor":"",
+                        "comorbids":[],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }],
+                        "brainLocations": [],
+                        "keyword": ""
+                    }],
+                    "drugs": [{
+                        "valor":"",
+                        "ratios":[],
+                        "bloods":[]
+                    }],
+                    "effect": [{
+                        "valor":"",
+                        "sentence":"",
+                        "referencies": [],
+                        "brainLocations":[],
+                        "metabolites":[],
+                        "ratios":[],
+                        "drugMetabolites":[],
+                        "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }],
+                        "cells": [{
+                           "valor":"",
+                           "brainLocations": [],
+                           "pathways": [{
+                              "valor":"",
+                              "brainLocations":[]
+                                    }]
+                            }],
+                        "clinicalConditions": [{
+                            "valor":"",
+                            "comorbids":[],
+                            "pathways": [{
+                                    "valor":"",
+                                    "brainLocations":[]
+                                    }],
+                                "brainLocations": [],
+                                "keyword": ""
+                            }],
+                        "drugs": [{
+                            "valor":"",
+                            "ratios":[],
+                            "bloods":[]
+                            }]
+                        }]
+                }]
+
+            }],
+            "keyword": "",
+            "poblacion": [{
+                "valor":"",
+                "origin":"",
+                "races":[],
+                "populationCase":{
+                    "valor":"",
+                    "drugs": [{
+                        "valor":"",
+                        "ratios":[],
+                        "bloods":[]
+                        }],
+                    "total":""
+                },
+                "populationControl":{
+                    "valor":"",
+                    "total":""
+                },
+                "sentence": ""
+            }]
+
+        }
+    ],
+    "gene":[
+         {
+            "valor": "",
+            "animalModel":"",
+            "functions":[{ 
+                "valor":"", 
+                "sentence":"", 
+                "referencies":[], 
+                "brainLocations": [],
+                "metabolites":[],
+                "ratios":[],
+                "drugMetabolites":[],
+                "pathways": [{
+                    "valor":"",
+                    "brainLocations":[]
+                    }],
+                "cells": [{
+                    "valor":"",
+                    "brainLocations": [],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }]
+                }],
+                "clinicalConditions": [{
+                    "valor":"",
+                    "comorbids":[],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }],
+                    "brainLocations": [],
+                    "keyword": ""
+                }],
+                "drugs": [{
+                    "valor":"",
+                    "ratios":[],
+                    "bloods":[]
+                }],
+                "effect": [{
+                    "valor":"",
+                    "sentence":"",
+                    "referencies": [],
+                    "brainLocations":[],
+                    "metabolites":[],
+                    "ratios":[],
+                    "drugMetabolites":[],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }],
+                    "cells": [{
+                       "valor":"",
+                       "brainLocations": [],
+                       "pathways": [{
+                          "valor":"",
+                          "brainLocations":[]
+                                }]
+                        }],
+                    "clinicalConditions": [{
+                        "valor":"",
+                        "comorbids":[],
+                        "pathways": [{
+                                "valor":"",
+                                "brainLocations":[]
+                                }],
+                            "brainLocations": [],
+                            "keyword": ""
+                        }],
+                    "drugs": [{
+                        "valor":"",
+                        "ratios":[],
+                        "bloods":[]
+                        }]
+                    }]
+            }]
+        }
+    ],
+    "mirna":[
+        {
+        "valor":"",
+        "animalModel":"",
+        "functions":[{ 
+            "valor":"", 
+            "sentence":"", 
+            "referencies":[], 
+            "brainLocations": [],
+            "metabolites":[],
+            "ratios":[],
+            "drugMetabolites":[],
+            "pathways": [{
+                "valor":"",
+                "brainLocations":[]
+                }],
+            "cells": [{
+                "valor":"",
+                "brainLocations": [],
+                "pathways": [{
+                    "valor":"",
+                    "brainLocations":[]
+                    }]
+            }],
+            "clinicalConditions": [{
+                "valor":"",
+                "comorbids":[],
+                "pathways": [{
+                    "valor":"",
+                    "brainLocations":[]
+                    }],
+                "brainLocations": [],
+                "keyword": ""
+            }],
+            "drugs": [{
+                "valor":"",
+                "ratios":[],
+                "bloods":[]
+            }],
+            "effect": [{
+                "valor":"",
+                "sentence":"",
+                "referencies": [],
+                "brainLocations":[],
+                "metabolites":[],
+                "ratios":[],
+                "drugMetabolites":[],
+                "pathways": [{
+                    "valor":"",
+                    "brainLocations":[]
+                    }],
+                "cells": [{
+                   "valor":"",
+                   "brainLocations": [],
+                   "pathways": [{
+                      "valor":"",
+                      "brainLocations":[]
+                            }]
+                    }],
+                "clinicalConditions": [{
+                    "valor":"",
+                    "comorbids":[],
+                    "pathways": [{
+                            "valor":"",
+                            "brainLocations":[]
+                            }],
+                        "brainLocations": [],
+                        "keyword": ""
+                    }],
+                "drugs": [{
+                    "valor":"",
+                    "ratios":[],
+                    "bloods":[]
+                    }]
+                }]
+        }]
+       
+    }],
+    "protein":[{
+        "valor": "",
+        "cells": [{
+            "valor":"",
+            "brainLocations": [],
+            "pathways": [{
+                "valor":"",
+                "brainLocations":[]
+                }]
+        }],
+        "functions":[{
+                "valor":"", 
+                "sentence":"", 
+                "referencies":[], 
+                "brainLocations": [],
+                "metabolites":[],
+                "ratios":[],
+                "drugMetabolites":[],
+                "pathways": [{
+                    "valor":"",
+                    "brainLocations":[]
+                    }],
+                "cells": [{
+                    "valor":"",
+                    "brainLocations": [],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }]
+                }],
+                "clinicalConditions": [{
+                    "valor":"",
+                    "comorbids":[],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }],
+                    "brainLocations": [],
+                    "keyword": ""
+                }],
+                "drugs": [{
+                    "valor":"",
+                    "ratios":[],
+                    "bloods":[]
+                }],
+                "effect": [{
+                    "valor":"",
+                    "sentence":"",
+                    "referencies": [],
+                    "brainLocations":[],
+                    "metabolites":[],
+                    "ratios":[],
+                    "drugMetabolites":[],
+                    "pathways": [{
+                        "valor":"",
+                        "brainLocations":[]
+                        }],
+                    "cells": [{
+                       "valor":"",
+                       "brainLocations": [],
+                       "pathways": [{
+                          "valor":"",
+                          "brainLocations":[]
+                                }]
+                        }],
+                    "clinicalConditions": [{
+                        "valor":"",
+                        "comorbids":[],
+                        "pathways": [{
+                                "valor":"",
+                                "brainLocations":[]
+                                }],
+                        "brainLocations": [],
+                        "keyword": ""
+                        }],
+                    "drugs": [{
+                        "valor":"",
+                        "ratios":[],
+                        "bloods":[]
+                        }]
+                    }]
+            }]
+
+        
+
+    
+    }],
+    "keyword":[],
+    "population":[{
+        "valor": "",
+        "oring": "",
+        "races":[],
+        "populationCase":{
+            "valor":"",
+            "drugs": [{
+                "valor":"",
+                "ratios":[],
+                "bloods":[]
+                }],
+            "total":""
+        },
+        "populationControl":{
+            "valor":"",
+            "total":""
+        },
+        "sentence": ""
+    }],
+    "responders":[],
+    "noResponders":[],
+    "diagnosticCriteria":[]
+    
+}

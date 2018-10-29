@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PopulationControl" pageWidth="242" pageHeight="295" orientation="Landscape" columnWidth="202" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0c490a87-90a5-4836-bdc7-2b45841c0f76">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="valor" class="java.lang.String">
+		<fieldDescription><![CDATA[valor|]]></fieldDescription>
+	</field>
+	<field name="total" class="java.lang.String">
+		<fieldDescription><![CDATA[total]]></fieldDescription>
+	</field>
+	<title>
+		<band height="19" splitType="Stretch"/>
+	</title>
+	<columnHeader>
+		<band height="19" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="100" height="19" uuid="79286e71-441e-4f9e-8d1b-3580074dfe80">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6052da0b-343c-40d3-9ae2-38a3c96b0d66"/>
+				</reportElement>
+				<text><![CDATA[valor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="102" y="0" width="100" height="19" uuid="04a97367-5b00-4150-be07-f88f4ab0e07a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bea61b7c-46a7-44a5-b07b-9890adad423c"/>
+				</reportElement>
+				<text><![CDATA[total]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="73" splitType="Stretch">
+			<textField>
+				<reportElement x="0" y="0" width="100" height="70" uuid="dcd2fd80-f552-4360-b253-eb667796f00c">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="6052da0b-343c-40d3-9ae2-38a3c96b0d66"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{valor}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="102" y="0" width="100" height="70" uuid="8a8d9e8d-23f6-47aa-a1a7-e0f013ce7380">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="bea61b7c-46a7-44a5-b07b-9890adad423c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{total}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

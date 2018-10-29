@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Poblacion" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="669c7ea2-9bbd-4e00-bcf6-5fa28163bdc2">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="valor" class="java.lang.String">
+		<fieldDescription><![CDATA[valor|]]></fieldDescription>
+	</field>
+	<field name="races" class="java.lang.String">
+		<fieldDescription><![CDATA[races]]></fieldDescription>
+	</field>
+	<field name="origin" class="java.lang.String">
+		<fieldDescription><![CDATA[origin]]></fieldDescription>
+	</field>
+	<field name="sentence" class="java.lang.String">
+		<fieldDescription><![CDATA[sentence]]></fieldDescription>
+	</field>
+	<field name="PopulationCase" class="java.lang.String">
+		<fieldDescription><![CDATA[PopulationCase]]></fieldDescription>
+	</field>
+	<variable name="PopulationCase" class="java.lang.Integer" calculation="Count">
+		<variableExpression><![CDATA[$F{PopulationCase}]]></variableExpression>
+	</variable>
+	<columnHeader>
+		<band height="31" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="0" width="83" height="30" uuid="315277ab-28da-4066-a7a1-7014e0ba9696">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b9da766e-b6d3-4d23-b0f0-7f2b8518dc47"/>
+				</reportElement>
+				<text><![CDATA[valor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="83" y="0" width="83" height="30" uuid="94ae619f-5efa-41e1-8cd0-201c2787a039">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="acb164c3-dec8-465a-bdd7-9e9a2b4b4514"/>
+				</reportElement>
+				<text><![CDATA[races]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="166" y="0" width="85" height="30" uuid="fe9cc3a5-57e9-4e3d-b728-476436fd04d6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="67b399d6-c719-4aaa-82b3-b7a476358c59"/>
+				</reportElement>
+				<text><![CDATA[origin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="622" y="0" width="180" height="30" uuid="a3f63b1e-cf31-489c-9840-12802388a0c9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e70d03d9-699b-420e-85f9-fa15507dedf9"/>
+				</reportElement>
+				<text><![CDATA[sentence]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="252" y="0" width="180" height="30" uuid="62203b6f-121b-46e9-bddb-2af282b33125">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="67b399d6-c719-4aaa-82b3-b7a476358c59"/>
+				</reportElement>
+				<text><![CDATA[origin]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="433" y="0" width="189" height="30" uuid="2cac5d83-486a-49d7-9785-d692da7ec707">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="67b399d6-c719-4aaa-82b3-b7a476358c59"/>
+				</reportElement>
+				<text><![CDATA[origin]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="297" splitType="Stretch">
+			<subreport>
+				<reportElement x="252" y="0" width="181" height="180" uuid="1e479b49-09e1-48f7-9a17-76489e34ef7b"/>
+				<dataSourceExpression><![CDATA[$F{PopulationCase}]]></dataSourceExpression>
+				<subreportExpression><![CDATA["PopulationCase.jasper"]]></subreportExpression>
+			</subreport>
+			<textField>
+				<reportElement x="0" y="1" width="82" height="180" uuid="d13d9791-96d8-4dad-8c7c-710e6f525b6d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b9da766e-b6d3-4d23-b0f0-7f2b8518dc47"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{valor}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="83" y="0" width="82" height="180" uuid="2b4ed90c-3656-4e71-99b4-c12fd4ee61e6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="acb164c3-dec8-465a-bdd7-9e9a2b4b4514"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{races}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="166" y="0" width="85" height="180" uuid="f59c670c-46d4-4142-af1e-be005f6bb05f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="67b399d6-c719-4aaa-82b3-b7a476358c59"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{origin}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="622" y="1" width="180" height="180" uuid="029c0461-0a48-41fb-bb26-1268b6ddfd81">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e70d03d9-699b-420e-85f9-fa15507dedf9"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{sentence}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
