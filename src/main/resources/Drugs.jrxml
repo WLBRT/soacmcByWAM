@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.6.0.final using JasperReports Library version 6.6.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="615d27ba-e92f-437f-bbe3-1f6a3b89a4cd">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<subDataset name="Dataset1" uuid="b59bb58f-7e3e-4e4b-b0ff-77e06aa99984">
+		<field name="dataGetCustom" class="java.lang.String">
+			<fieldDescription><![CDATA[_THIS]]></fieldDescription>
+		</field>
+	</subDataset>
+	<field name="valor" class="java.lang.String">
+		<fieldDescription><![CDATA[valor]]></fieldDescription>
+	</field>
+	<field name="bloods" class="java.util.Collection">
+		<fieldDescription><![CDATA[bloods]]></fieldDescription>
+	</field>
+	<field name="ratios" class="java.util.Collection">
+		<fieldDescription><![CDATA[ratios]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="35">
+			<staticText>
+				<reportElement x="0" y="0" width="268" height="30" uuid="af3c32c4-9ca5-44b9-9e40-25ebdafa2c14">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a8b1956d-891b-4612-aba8-635ea681caeb"/>
+				</reportElement>
+				<text><![CDATA[valor]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="268" y="0" width="268" height="30" uuid="a537368e-e77a-4fab-a475-0ad17b797eac">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a8b1956d-891b-4612-aba8-635ea681caeb"/>
+				</reportElement>
+				<text><![CDATA[ratios]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="536" y="0" width="268" height="30" uuid="a537368e-e77a-4fab-a475-0ad17b797eac">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a8b1956d-891b-4612-aba8-635ea681caeb"/>
+				</reportElement>
+				<text><![CDATA[bloods]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.HorizontalRowLayout"/>
+			<textField>
+				<reportElement x="0" y="0" width="268" height="30" uuid="b2a86573-28b0-42c3-acda-1ba7add61d19">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a8b1956d-891b-4612-aba8-635ea681caeb"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{valor}]]></textFieldExpression>
+			</textField>
+			<componentElement>
+				<reportElement x="268" y="0" width="267" height="30" uuid="09283dd1-32a2-42be-b047-a9a7560cc8be"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+					<datasetRun subDataset="Dataset1" uuid="9ab99a3a-3fad-45f9-a257-dd78af80e5fe">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{ratios})]]></dataSourceExpression>
+					</datasetRun>
+					<jr:listContents height="20" width="267">
+						<textField>
+							<reportElement x="0" y="0" width="100" height="20" uuid="8190e26f-9762-4b82-a3ab-33de1d1580b5"/>
+							<box leftPadding="10">
+								<topPen lineWidth="1.0"/>
+								<leftPen lineWidth="1.0"/>
+								<bottomPen lineWidth="1.0"/>
+								<rightPen lineWidth="1.0"/>
+							</box>
+							<textFieldExpression><![CDATA[$F{dataGetCustom}]]></textFieldExpression>
+						</textField>
+					</jr:listContents>
+				</jr:list>
+			</componentElement>
+			<componentElement>
+				<reportElement x="540" y="0" width="267" height="30" uuid="05b2ff13-7ad0-4a5f-976e-4aff10c15d63"/>
+				<jr:list xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd" printOrder="Vertical">
+					<datasetRun subDataset="Dataset1" uuid="0814ef06-846c-4dde-aa9d-4812f53c233d">
+						<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{bloods})]]></dataSourceExpression>
+					</datasetRun>
+					<jr:listContents height="20" width="267">
+						<textField>
+							<reportElement x="0" y="0" width="100" height="20" uuid="f97b3a6c-91fb-4d5e-a111-1900a7cbeddf"/>
+							<box leftPadding="10">
+								<topPen lineWidth="1.0"/>
+								<leftPen lineWidth="1.0"/>
+								<bottomPen lineWidth="1.0"/>
+								<rightPen lineWidth="1.0"/>
+							</box>
+							<textFieldExpression><![CDATA[$F{dataGetCustom}]]></textFieldExpression>
+						</textField>
+					</jr:listContents>
+				</jr:list>
+			</componentElement>
+		</band>
+	</detail>
+</jasperReport>

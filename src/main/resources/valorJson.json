@@ -1,0 +1,12 @@
+{
+"populationCase":{
+            "valor":"MEXICO VALOR",
+            "drugs": [
+			{"valor":"Valor 1", "ratios":["a", "b", "c"], "bloods":["1", "2", "3"] },
+			{"valor":"Valor 2", "ratios":["d", "f", "j"], "bloods":["1", "2", "3"] },
+			{"valor":"Valor 3", "ratios":["r", "h", "k"], "bloods":["7", "4", "8"] }
+		],
+            "total":"MEXICO"
+        } 
+}
+
